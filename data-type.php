@@ -22,17 +22,23 @@
     //$array = array(1, 2, 3); // Array
     //$Object = new MyClass(); // Object
     //$nullValue = null; // NULL
+    //resource = fopen("file.txt", "r"); // Resource (file handle)
 
-    $x = "Atiq Ur Rehman"; // String
-    $x = 2500; // 
-    $x = 25.5; // Float
-    $x = true; // Boolean
-    $x = array(1, 2, 3); // Array
-    $x = null; // NULL
-    echo $x . "<br>";
+    // $x = "Atiq Ur Rehman"; // String
+    // $x = 2500; // 
+    // $x = 25.5; // Float
+    // $x = true; // Boolean
+    //$x = array(1, 2, 3); // Array
+    //$x = null; // NULL
+    // echo $x . "<br>";
 
-    var_dump($x); // Displays the type and value of the variable
+    //var_dump($x); // Displays the type and value of the variable
+    $arr = ["Atiq Ur Rehman", "kamran", false];
+    echo var_dump($arr);
 
+    // $user = new className();
+    $connection = mysqli_connect("localhost", "username", "password", "database");
+    echo var_dump($connection);
     ?>
 </body>
 

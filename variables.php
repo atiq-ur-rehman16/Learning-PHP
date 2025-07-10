@@ -18,14 +18,18 @@
     //$firstname
     // $first_name
     //_$firstName
-    //$first-name
     // $firstName
     // $firstname11
 
-    $name = "Atiq Ur Rehman"; // String value is allwase in double quotes
-    $num = 27; // Integer value is without quotes
-    echo "<h1>My name is <i>$name</i></h1>";
-    echo $num;
+    //$NAME20 = "Atiq Ur Rehman"; // String value is allwase in double quotes
+    //$num = 27; // Integer value is without quotes
+    //echo "<h1>My name is a <i>$NAME20</i></h1>";
+    // echo $num;
+    $name = "Atiq Ur Rehman";
+    $Name = "kamran";
+    $NAME = "amman";
+    echo "<h1>My name is <i>$NAME</i></h1>";
+
     ?>
 </body>
 

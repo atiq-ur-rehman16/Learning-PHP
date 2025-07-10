@@ -13,7 +13,9 @@
     echo 23.58;
 
     print "<h1><i>you can use echo to output text in PHP." . " this is the first PHP file.</i></h1>";
-    print 23.58;
+    print 23.58 . "<br>";
+
+    echo 20 + 20;
     ?>
 </body>
 
